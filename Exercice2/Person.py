@@ -27,3 +27,4 @@ class Person:
                 "framework": [],
             }
         }
+        return self.person

@@ -54,5 +54,5 @@ Puis pour installer les packets, il faut taper dans le terminal :
 
 Efin pour lancer le serveur, il faut taper dans le terminal :
 
-    - flask --app main run 
-    ('main' étant le nom du fichier principal)   
+    - flask --app exercice3 run 
+    ('exercice3' étant le nom du fichier principal)   
