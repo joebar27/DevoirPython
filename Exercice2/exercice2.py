@@ -6,13 +6,15 @@ En POO également, vous devez initialiser le dictionnaire soit dans le construct
 import json
 from Person import Person
 
+
 def main():
 
     # Création d'une instance de la classe Person :
     person = Person()
 
-    # Affichage du dictionnaire sous forme d'objet JSON, avec indentation a l'affichage :
+    # Affichage du dictionnaire sous forme d'objet JSON, avec indentation à l'affichage dans la console :
     print(json.dumps(person.get_person(), indent=4))
 
+# Exécution du script :
 if __name__ == "__main__":
     main()

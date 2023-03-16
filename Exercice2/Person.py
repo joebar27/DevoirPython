@@ -1,5 +1,5 @@
 class Person:
-
+    # Initialisation des attributs :
     def __init__(self):
         self.person = {
             "first_name": "Romain",
@@ -12,6 +12,7 @@ class Person:
             },
         }
 
+    # Getter et Setter de l'attribut person :
     def get_person(self):
         return self.person
 
